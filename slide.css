@@ -1,12 +1,14 @@
 .fund{
   position: relative;
   z-index: -1;
-  max-width: 100vw;
+  
  
 
 }
 .filter{
   filter: brightness(70%);
+  max-width: 100vw;
+  height: 100vh;
 }
 
 .owl-nav{
@@ -17,7 +19,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: red;
+
   width: auto;
   margin: 0 auto;
   top: 50%;
@@ -29,10 +31,39 @@
   margin: 10px;
 } 
 
-.owl-theme .owl-dots .owl-dot span{
-  background-color: green;
+
+
+
+
+
+.owl-theme .owl-dots .owl-dot span::after{
+  background-color: rgba(0, 255, 0, 0);
+  content: '01';
+  border-radius: 100%;
+  font-size: 20px;
+  border:solid 2px;
+  padding: 80%;
+  margin-top: 50px;
 }
+
+
+.owl-theme .owl-dots .owl-dot span:hover::after{
+  background-color: rgb(255, 255, 255);
+  content: '01';
+  border-radius: 10px;
+  font-size: 20px;
+  }
+
+
+
 /*qunado a pagina esta ativa*/
-.owl-theme .owl-dots .owl-dot.active span{
-  background-color: blue;
+
+
+.owl-theme .owl-dots .owl-dot span.active::after{
+  background-color: red;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+content: 'OLA';
+background-color: transparent;
 }
