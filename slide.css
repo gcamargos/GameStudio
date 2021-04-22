@@ -1,0 +1,38 @@
+.fund{
+  position: relative;
+  z-index: -1;
+  max-width: 100vw;
+ 
+
+}
+.filter{
+  filter: brightness(70%);
+}
+
+.owl-nav{
+  display: none;
+}
+
+.owl-theme .owl-dots  {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: auto;
+  margin: 0 auto;
+  top: 50%;
+  margin-left: 5px;
+
+  
+}
+.owl-theme .owl-dots button{ 
+  margin: 10px;
+} 
+
+.owl-theme .owl-dots .owl-dot span{
+  background-color: green;
+}
+/*qunado a pagina esta ativa*/
+.owl-theme .owl-dots .owl-dot.active span{
+  background-color: blue;
+}
