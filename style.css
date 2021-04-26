@@ -9,7 +9,7 @@ a{
   text-decoration: none;
   color: white;
   transition-duration: 0.4s;
-  
+   
 }
 a:hover{
   color: #50c2cc;
@@ -24,6 +24,7 @@ body{
 
 
 .header-wrap{
+  display: flex;
   background-color: rgba(56, 55, 60, 0.611);
   width: 100%;
   padding-left: 100px;
@@ -64,6 +65,7 @@ body{
 /*imagem logo*/
 .logo{ 
   display: flex;
+  margin-right:10px ;
  
 }
 
