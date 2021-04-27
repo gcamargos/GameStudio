@@ -5,7 +5,7 @@
 }
 .filter{
   filter: brightness(70%);
-width: 100px;
+
   
 }
 
@@ -17,7 +17,6 @@ width: 100px;
   position: absolute;
   display: flex;
   flex-direction: column;
-
   margin: 0 auto;
   top: 50%;
   margin-left: 5px;
@@ -53,7 +52,7 @@ width: 100px;
 .owl-theme .owl-dots .owl-dot span:hover::after{
   background-color: rgba(0, 255, 0, 0);
   content: 'Xx';
-  border-radius: 100%;
+  border-radius: 10%;
   font-size: 20px;
   border:solid 2px;
   padding: 80%;
@@ -67,11 +66,17 @@ width: 100px;
 /*qunado a pagina esta ativa*/
 
 
-.owl-theme .owl-dots .owl-dot span.active::after{
-  background-color: red;
-}
+
 
 .owl-theme .owl-dots .owl-dot span{
 content: 'OLA';
 background-color: transparent;
+}
+
+/*imagem do*/
+.owl-carousel .owl-item img{
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  
 }
