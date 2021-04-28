@@ -4,6 +4,7 @@
   font-size: 14px;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  list-style: none;
 }
 a{
   text-decoration: none;
@@ -136,9 +137,9 @@ justify-content: space-between;
 .txt{
   font-family: 'Roboto', 'Arial';
     color: #ffffff;
-  font-size: 600%;
-    text-shadow: none;
-    line-height: 1;  font-weight: 700;
+    font-size: 400%;
+    
+
     
     
     text-align: center;
@@ -146,6 +147,58 @@ justify-content: space-between;
    
     text-transform: uppercase;
     font-weight: 700;
-    text-shadow: 0 2px 4.8px rgb(0 0 0 / 30%);
+    text-shadow: 0 2px 4.8px rgb(100 1000 1000 / 30%);
     font-family: "Agency FB";
+    margin-bottom: 100px;
+}
+
+
+
+.wrapper-section{
+  background-color: rgba(170, 170, 170, 0.453); 
+  
+   width: 85%;
+   margin: 17vh  auto 0 auto;
+}
+.wrapper-char-games ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: rgba(255, 0, 0, 0);
+  text-decoration: none;
+
+}
+.wrapper-char-games ul li  {
+ 
+  text-decoration: none;
+  
+}
+
+
+.img-wrapper{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  
+  overflow: hidden;
+  display: flex;
+}
+.description{
+  text-align: center;
+  
+  color: white;
+  font-weight: 700;
+  font-family: "Agency FB";
+  font-size: 40px;
+  line-height: normal; /*altura da linha*/
+    white-space: nowrap
+}
+.desc-data{
+  color: #c2d4f8;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }
