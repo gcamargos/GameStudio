@@ -6,6 +6,9 @@
   font-family: "Roboto", sans-serif;
   list-style: none;
 }
+:root{
+  --color-hover:#50c2cc;
+}
 a{
   text-decoration: none;
 
@@ -83,7 +86,7 @@ justify-content: space-between;
 }
 .nav ul li a:hover{
 
-    color: #50c2cc;
+    color: var(--color-hover);
   
 }
 
@@ -109,8 +112,8 @@ justify-content: space-between;
 }
 .search-join .join .btn:hover{
   
-  border-color: #50c2cc;
-  background-color: #50c2cc;
+  border-color: var(--color-hover);
+  background-color: var(--color-hover);
 }
 
 .scrolling-active{
@@ -138,25 +141,18 @@ justify-content: space-between;
   font-family: 'Roboto', 'Arial';
     color: #ffffff;
     font-size: 400%;
-    
-
-    
-    
     text-align: center;
-    
-   
     text-transform: uppercase;
     font-weight: 700;
     text-shadow: 0 2px 4.8px rgb(100 1000 1000 / 30%);
     font-family: "Agency FB";
-    margin-bottom: 100px;
+    margin-bottom:60px;
 }
 
 
-
+/*começando os conteudos abaixo do header*/
 .wrapper-section{
-  background-color: rgba(170, 170, 170, 0.453); 
-  
+  background-color: rgba(170, 170, 170, 0); 
    width: 85%;
    margin: 17vh  auto 0 auto;
 }
@@ -173,13 +169,18 @@ justify-content: space-between;
 .wrapper-char-games ul li  {
  
   text-decoration: none;
-  
+
+}
+.wrapper-char-games ul li a{
+ 
+color: whitesmoke;
+
 }
 
 
 .img-wrapper{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   
   overflow: hidden;
@@ -187,8 +188,6 @@ justify-content: space-between;
 }
 .description{
   text-align: center;
-  
-  color: white;
   font-weight: 700;
   font-family: "Agency FB";
   font-size: 40px;
@@ -202,3 +201,8 @@ justify-content: space-between;
     line-height: normal;
     text-align: center;
 }
+.wrapper-char-games ul li a:hover{
+ 
+  color: var(--color-hover);
+}
+
