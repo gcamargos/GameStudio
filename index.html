@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--jquery-->
+  <script src="js/JQuery3.3.1.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!--icones e vetores-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+  <!--Primeiro carrossel usando o owl -->
   <link rel="stylesheet" href="owl/owl.carousel.min.css">
   <link rel="stylesheet" href="owl/owl.theme.default.min.css">
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="slide.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+  <!--light slider para uso do segundo slide-->
+  <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+  <script src="js/lightslider/lightslider.js"></script>
+
+
+  <!--estilizacao dos elementos-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/slide.css">
+
+
 
   <title>Indiega</title>
 </head>
 
 <body>
-
-
   <div class="owl-carousel owl-theme">
     <img class="fund filter" src="img/background.jpg" alt="">
     <img class="fund filter" src="img/b1.jpg" alt="">
     <img class="fund filter" src="img/b2.png" alt="">
   </div>
-
-
-
   <header class="header-wrap">
     <div class="container">
       <div class="logo"><a href="#"><img src="img/logo-NAME.png" alt=""></a></div>
-
-
-
       <div class="nav">
         <nav>
           <ul>
@@ -44,27 +50,23 @@
           </ul>
         </nav>
       </div>
-
-
       <div class="search-join">
-
         <div class="join">
           <button class="btn">JOIN US NOW</button>
         </div>
-
       </div>
     </div>
     </div>
-
   </header>
 
   <!---->
   <section class="game-section">
     <h1 class="txt">Principais games</h1>
-    <div class="wrapper-char-games ">
-      <ul>
-        <li>
 
+    <div class="wrapper-char-games ">
+      <ul id="autoWidth" class="cs-hidden">
+        <!--id and class para o slide el light-->
+        <li>
           <div class="img-wrapper">
             <img src="gamezone.jpg" alt="" width="10px">
           </div>
@@ -74,10 +76,8 @@
           <div class="desc-data">
             MAR 18-20,2020
           </div>
-
         </li>
         <li>
-
           <div class="img-wrapper">
             <img src="gamezone.jpg" alt="">
           </div>
@@ -104,7 +104,6 @@
 
         </li>
         <li>
-
           <div class="img-wrapper">
             <img src="gamezone.jpg" alt="">
           </div>
@@ -152,11 +151,14 @@
 
 
 
-
-  <script src="js/owl/jquery.min.js"></script>
+  <!--arquivos para o owl carousel-->
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/owl/setup.js"></script>
-  <script src="header.js"></script>
+  <!--script para o light slider-->
+  <script src="js/lightslider/script-light.js"></script>
+  <script src="js/header.js"></script>
+
+
 
 </body>
 

@@ -188,6 +188,7 @@ cursor: pointer;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
+  margin-right: 50px;
  
 }
 .img-wrapper img{
