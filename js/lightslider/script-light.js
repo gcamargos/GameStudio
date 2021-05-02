@@ -1,8 +1,26 @@
 $(document).ready(function () {
-  $('#autoWidth').lightSlider({
-    autoWidth: true,
-    loop: true,
+  $('#responsive').lightSlider({
 
+
+    item: 3,
+    loop: true,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          item: 1,
+          slideMove: 1,
+
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          item: 1,
+
+        }
+      }
+    ],
     onSliderLoad: function () {
       $('#autoWidth').removeClass('cS-hidden');
     }

@@ -71,6 +71,12 @@ justify-content: space-between;
 
 
 /**/
+.lslide{
+
+  display: block;
+
+  
+}
 .nav ul  {
  
  
@@ -174,6 +180,9 @@ text-decoration: none;
 color: whitesmoke;
 transition: .3s;
 cursor: pointer;
+margin-left: 50px;
+
+
 }
 .owl-carousel .owl-item img {
  
@@ -184,19 +193,25 @@ cursor: pointer;
 
 
 .img-wrapper{
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 50px;
+
+  justify-content: center;
+
+ 
  
 }
 .img-wrapper img{
- width: 200px;
- height: 200px;
+ width: 250px;
+ height: 250px;
+ margin: 0 auto;
 
- 
 }
+
+
+
 .game-section.wrapper-char-games .owl-carousel .owl-theme 
 ul li .img-wrapper img {
   /* height: 100vh; */
@@ -205,19 +220,21 @@ ul li .img-wrapper img {
 }
 
 .description{
-  text-align: center;
+  text-align: left;
   font-weight: 700;
   font-family: "Agency FB";
   font-size: 40px;
   line-height: normal; /*altura da linha*/
-    white-space: nowrap
+    white-space: nowrap;
+    margin-left: 60px;
 }
 .desc-data{
   color: #c2d4f8;
     font-size: 14px;
     font-weight: 700;
     line-height: normal;
-    text-align: center;
+    text-align: left;
+    margin-left: 80px;
 }
 .wrapper-char-games ul li:hover{
  
