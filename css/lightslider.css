@@ -382,7 +382,7 @@
   cursor: -moz-grab;
   cursor: -o-grab;
   cursor: -ms-grab;
-  cursor: grab;
+  cursor: pointer;
 }
 .lightSlider.lsGrabbing > * {
   cursor: move;

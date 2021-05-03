@@ -280,9 +280,11 @@ ul li .img-wrapper img {
   
 }
 .btn-stars{
-  margin-top: 60px;
+  
   display: flex;
   align-items: center;
+  
+  margin-bottom: 100%;
   
 }
 .btn-stars button{

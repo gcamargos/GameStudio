@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 
     item: 3,
-    loop: true,
+    loop: false,
     responsive: [
       {
         breakpoint: 800,

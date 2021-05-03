@@ -66,7 +66,7 @@
     <div class="wrapper-char-games ">
       <ul id="responsive" class="cs-hidden" style="width:940px;">
         <!--id and class para o slide el light-->
-        <li>
+        <li onclick="changeVal()">
           <div class="img-wrapper">
             <img src="gamezone.jpg" alt="" width="10px">
           </div>
@@ -77,67 +77,55 @@
             MAR 18-20,2020
           </div>
         </li>
-        <li>
+        <li onclick="changeLol()">
           <div class="img-wrapper">
             <img src="gamezone.jpg" alt="" width="10px">
           </div>
           <div class="description">
-            VALORANT
+            WILD RIFT
           </div>
           <div class="desc-data">
             MAR 18-20,2020
           </div>
         </li>
-        <li>
+        <li onclick="changePala()">
+          <div class="img-wrapper">
+            <img src=" gamezone.jpg" alt="">
+          </div>
+          <div class="description">
+            PALADINS
+          </div>
+          <div class="desc-data">
+            MAR 18-20,2020
+          </div>
+        </li>
+        <li onclick="impact()">
+
           <div class="img-wrapper">
             <img src="gamezone.jpg" alt="">
           </div>
           <div class="description">
-            FIFAL 2018
-          </div>
-          <div class="desc-data">
-            MAR 18-20,2020
-          </div>
-
-
-        </li>
-        <li>
-
-          <div class="img-wrapper">
-            <img src="gamezone.jpg" alt="">
-          </div>
-          <div class="description">
-            GAMEZONE
+            G.IMPACT
           </div>
           <div class="desc-data">
             MAR 18-20,2020
           </div>
 
         </li>
-        <li>
-          <div class="img-wrapper">
-            <img src="gamezone.jpg" alt="">
-          </div>
-          <div class="description">
-            GAMEZONE
-          </div>
-          <div class="desc-data">
-            MAR 18-20,2020
-          </div>
 
-        </li>
       </ul>
     </div>
 
     <div class="info-games">
       <div class="text-info">
-        <h1>Valorant</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et corrupti, tempora fugit explicabo eum aliquid.
-          Perferendis consequatur, velit earum atque tempora, commodi temporibus aperiam consectetur labore nostrum
-          delectus assumenda nemo?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sit quod necessitatibus iste ipsum nulla non
-          molestias recusandae delectus sint doloremque harum voluptatum perspiciatis, debitis possimus perferendis
-          deleniti culpa quas!</p>
+        <h1 class="nick">Valorant</h1>
+
+        <p class="text">Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa
+          desenvolvido e publicado pela Riot Games.Duas equipes de cinco jogam uma contra a outra, e os jogadores
+          assumem o papel de "agentes" com habilidades únicas e especiais </p>
+        <p class="text2">O jogo conta com varios modos de jogo como "desarme da spike","disputa da spike", "mata-mata",
+          entre varios outros. O jogo tambem conta com o modo competitivo e o modo sem classificação para jogadores
+          casuais. </p>
 
         <div class="btn-stars">
           <button>Read More</button>
@@ -154,7 +142,9 @@
 
       </div>
       <div class="img-game">
-        <div class="img"><img src="img/val.jpg" alt=""></div>
+        <div class="img">
+          <img class="change-img" src="img/val.jpg" alt="">
+        </div>
 
       </div>
     </div>
@@ -168,6 +158,7 @@
   <!--script para o light slider-->
   <script src="js/lightslider/script-light.js"></script>
   <script src="js/header.js"></script>
+  <script src="js/change.js"></script>
 
 
 
