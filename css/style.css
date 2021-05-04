@@ -203,21 +203,29 @@ margin-left: 50px;
  
  
 }
-.img-wrapper img{
- width: 250px;
- height: 250px;
- margin: 0 auto;
+.img-card{
+object-fit: cover;
+width: 100%;
+height: 100%;
+
+filter:opacity(40%);
+transition-duration: 1.5s;
+transition: 1s;
+
+
+}
+.img-card:hover{
+object-fit: cover;
+width: 100%;
+height: 100%;
+filter: opacity(100%);
+transition-duration: .3s;
+
 
 }
 
 
 
-.game-section.wrapper-char-games .owl-carousel .owl-theme 
-ul li .img-wrapper img {
-  /* height: 100vh; */
-  width: 100%;
-  object-fit: cover;
-}
 
 .description{
   text-align: left;
@@ -320,4 +328,11 @@ width: 570px;
 height: 450px;
 object-fit: cover;
 border-radius: 10px ;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+  background: transparent;
+}
+button.owl-dot.active{
+  color: var(--color-hover);
 }

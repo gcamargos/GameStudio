@@ -57,8 +57,11 @@
   border:solid 2px;
   padding: 80%;
   margin-top: 50px;
-  color: tomato;
+  color: blue;
   margin-top: 50px;
+  }
+  .owl-theme .owl-dots .owl-dot span:focus::after{
+  color: red;
   }
 
 
