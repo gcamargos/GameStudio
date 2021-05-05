@@ -6,7 +6,7 @@ function changeLol() {
   let paragraph1 = 'League of Legends: Wild Rift é um jogo eletrônico do gênero MOBA desenvolvido e publicado pela Riot Games para Android, iOS, e consoles ainda desconhecidos. O jogo é uma versão adaptada de seu equivalente para PC, League of Legends.'
   let paragraph2 = 'Como em League of Legends, os jogadores controlam um personagem ("campeão") com habilidades únicas e batalham contra um time de jogadores ou inteligência artificial. O objetivo de cada time é destruir o nexus (uma construção localizada na base e protegida por outras estruturas) da equipe adversária.'
   h1.innerHTML = 'WILD RIFT'
-  img.src = 'wild.jpg'
+  img.src = 'img/wild.jpg'
   txt.innerHTML = paragraph1;
   txt2.innerHTML = paragraph2;
 }
