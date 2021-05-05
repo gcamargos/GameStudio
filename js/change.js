@@ -33,7 +33,7 @@ function changePala() {
   let paragraph2 = 'O jogo saiu do beta no dia 8 de maio de 2018 e recebeu muitas mudanças visuais graças a nova direção da empresa desenvolvedora do jogo. O diretor da Hi-rez, conhecido pelos jogadores como HirezChris, anunciou no dia 30 de abril de 2018 a retirada do beta do jogo abertamente para a comunidade do jogo.'
 
   h1.innerHTML = 'Paladins'
-  img.src = '../../img/pala.png'
+  img.src = 'pala.png'
   txt.innerHTML = paragraph1;
   txt2.innerHTML = paragraph2;
 }
