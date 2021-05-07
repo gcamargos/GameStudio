@@ -38,7 +38,7 @@ header{
 .header-wrap{
   display: flex;
 justify-content: space-between;
-  background-color: rgba(56, 55, 60, 0.611);
+background-color: rgba(24, 23, 40, 0.8);;
 
   padding-left: 50px;
   padding-right: 50px;
@@ -124,14 +124,14 @@ justify-content: space-between;
 }
 
 .scrolling-active{
-  background-color: rgb(255, 255, 255);
+  background-color: #1e1d32;
   height: 10%;
-  
+ 
   box-shadow: 0 3px 1rem rgba(5, 0, 38, 0.576);
 
 }
 .scrolling-active .nav ul li a{
-  color:#1f1d32;
+  color:#ffffff;
 }
 
 .scrolling-active .logo img{
@@ -175,12 +175,18 @@ justify-content: space-between;
 }
 
 .wrapper-char-games ul li  {
- 
 text-decoration: none;
 color: whitesmoke;
 transition: .3s;
 cursor: pointer;
-margin-left: 50px;
+margin-left: 60px;
+
+
+}
+.wrapper-char-games ul li a  {
+
+color: whitesmoke;
+
 
 
 }
@@ -244,7 +250,7 @@ transition-duration: .3s;
     text-align: left;
     margin-left: 80px;
 }
-.wrapper-char-games ul li:hover{
+.wrapper-char-games ul li a:hover{
  
   color: var(--color-hover);
 
