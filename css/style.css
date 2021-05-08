@@ -115,7 +115,7 @@ background-color: rgba(24, 23, 40, 0.8);;
   font-family:"Roboto", sans-serif;
   font-weight: 700;
   cursor: pointer;
-  transition-duration: 0.4s;
+  transition-duration: 0.1s;
 }
 .search-join .join .btn:hover{
   
@@ -126,7 +126,6 @@ background-color: rgba(24, 23, 40, 0.8);;
 .scrolling-active{
   background-color: #1e1d32;
   height: 10%;
- 
   box-shadow: 0 3px 1rem rgba(5, 0, 38, 0.576);
 
 }
