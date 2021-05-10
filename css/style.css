@@ -22,7 +22,7 @@ body{
   height: 90%;
   /*background:linear-gradient(rgba(2, 2, 5, 0.508),rgba(49, 46, 67, 0.611)), url(/img/background.jpg);*/
   color: white;
-  background-color:var(--baground)
+  background-color:var(--baground);
 }
 /*HEADER*/
 header{
@@ -38,7 +38,7 @@ header{
 .header-wrap{
   display: flex;
 justify-content: space-between;
-background-color: rgba(24, 23, 40, 0.8);;
+background-color: rgba(24, 23, 40, 0.8);
 
   padding-left: 50px;
   padding-right: 50px;
