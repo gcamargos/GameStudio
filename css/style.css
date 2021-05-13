@@ -23,6 +23,7 @@ body{
   /*background:linear-gradient(rgba(2, 2, 5, 0.508),rgba(49, 46, 67, 0.611)), url(/img/background.jpg);*/
   color: white;
   background-color:var(--baground);
+
 }
 /*HEADER*/
 header{
