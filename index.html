@@ -24,8 +24,10 @@
   <link rel="stylesheet" href="css/slide.css">
   <link rel="stylesheet" href="css/card.css">
   <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/media.css">
   <script src="js/header.js"></script>
   <script src="js/change.js"></script>
+
 
 
 
@@ -55,10 +57,21 @@
   <header class="header-wrap">
 
     <div class="container">
-      <div class="logo"><a href="#"><img src="img/logo-NAME.png" alt=""></a></div>
-      <div class="nav">
-        <nav>
-          <ul>
+      <div class="logo">
+        <a href="#">
+          <picture>
+            <source media="(max-width:1050px)" srcset="img/logo.png">
+            <source media="(min-width:951px)" srcset="">
+            <img src="img/logo-NAME.png" alt="">
+
+          </picture>
+
+        </a>
+      </div>
+      <div class="nave">
+        <nav id="nav">
+          <button id="btn-mobile">Menu</button>
+          <ul id="menu">
             <li><a href="#">INICIO</a> </li>
             <li> <a href="#char-games">GAMES</a> </li>
             <li> <a href="#news">NEWS</a></li>
@@ -284,8 +297,8 @@
 
         <div class="v-left">
 
-          <video class="vimeo" poster="val.jpg">
-            <source src="Pokedex - Google Chrome 2020-11-01 12-06-22.mp4">
+          <video class="vimeo" controls poster="val.jpg">
+            <source src="break.mp4">
           </video>
 
         </div>
@@ -324,7 +337,7 @@
       </div>
     </div>
   </div>
-  <span id="footer" style="margin-bottom: 100px; display: block;"></span>
+  <span id="footer" style=" display: block;"></span>
   <footer class="footer">
     <div class="f-container">
       <div class="f-c-up">
@@ -336,7 +349,7 @@
         <div class="up-info">
           <div class="f-header">
             <div class="nav">
-              <nav>
+              <nav class="nave">
                 <ul>
                   <li><a href="#">INICIO</a> </li>
                   <li> <a href="#char-games">GAMES</a> </li>
@@ -384,7 +397,7 @@
   <!--script para o light slider-->
   <script src="js/lightslider/script-light.js"></script>
 
-
+  <script src="js/mobile.js"></script>
 
 
 

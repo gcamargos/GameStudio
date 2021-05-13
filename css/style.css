@@ -60,6 +60,7 @@ background-color: rgba(24, 23, 40, 0.8);
   justify-content: space-around;
   font-weight: 700;
   height: 100%;
+  width: 100%;
 }
 
 /*imagem logo*/
@@ -71,6 +72,7 @@ background-color: rgba(24, 23, 40, 0.8);
 }
 
 
+
 /**/
 .lslide{
 
@@ -78,21 +80,21 @@ background-color: rgba(24, 23, 40, 0.8);
 
   
 }
-.nav ul  {
+.nave ul  {
  
  
   list-style: none;
   display: flex;
 }
-.nav ul li   {
+.nave ul li   {
   margin-right: 40px;
  
   
 }
-.nav ul li a  {
+.nave ul li a  {
   color: white;
 }
-.nav ul li a:hover{
+.nave ul li a:hover{
 
     color: var(--color-hover);
   
@@ -130,13 +132,13 @@ background-color: rgba(24, 23, 40, 0.8);
   box-shadow: 0 3px 1rem rgba(5, 0, 38, 0.576);
 
 }
-.scrolling-active .nav ul li a{
+.scrolling-active .nave ul li a{
   color:#ffffff;
 }
 
 .scrolling-active .logo img{
-  width: 150px;
-  margin-right: 100px;
+  width: 60px;
+  margin-right: 0px;
   
 }
 
@@ -483,7 +485,7 @@ display: flex;
 .up-info div{
   margin-bottom: 30px;
 }
-.f-header nav ul li a{
+.f-header .nave ul li a{
   font-weight: 700;
 }
 
@@ -544,6 +546,11 @@ display: flex;
   animation-name: botton;
   animation-duration: .5s;
 }
+.lSAction > .lSNext {
+    background-position: -32px 0;
+    right: 10px;}
+
+
 @keyframes botton{
   0%{
     opacity: 0%;
@@ -552,4 +559,3 @@ display: flex;
     opacity: 100%;
   }
 }
-

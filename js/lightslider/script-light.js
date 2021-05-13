@@ -6,11 +6,11 @@ $(document).ready(function () {
     loop: false,
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1000,
         settings: {
-          item: 1,
+          item: 3,
           slideMove: 1,
-
+          loop: false,
         }
       },
       {
