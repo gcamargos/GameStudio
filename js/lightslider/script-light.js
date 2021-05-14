@@ -6,9 +6,9 @@ $(document).ready(function () {
     loop: false,
     responsive: [
       {
-        breakpoint: 1000,
+        breakpoint: 830,
         settings: {
-          item: 3,
+          item: 2,
           slideMove: 1,
           loop: false,
         }

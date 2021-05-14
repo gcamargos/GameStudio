@@ -71,7 +71,11 @@ background-color: rgba(24, 23, 40, 0.8);
  
 }
 
-
+.msg-span h2{
+  font-family: 'Reggae One', cursive;
+  font-size: 3.5rem;
+  text-align: center;
+}
 
 /**/
 .lslide{
@@ -137,7 +141,7 @@ background-color: rgba(24, 23, 40, 0.8);
 }
 
 .scrolling-active .logo img{
-  width: 60px;
+  width: 150px;
   margin-right: 0px;
   
 }
