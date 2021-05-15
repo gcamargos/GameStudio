@@ -554,6 +554,10 @@ display: flex;
     background-position: -32px 0;
     right: 10px;}
 
+    .up-logo a img{
+      width: 300px;
+    }
+
 
 @keyframes botton{
   0%{

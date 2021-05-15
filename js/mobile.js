@@ -3,8 +3,17 @@
 let btnMobile = document.getElementById('btn-mobile')
 
 function toggleMenu() {
-  const nav = document.getElementById('nav')
-  nav.classList.toggle('active')
+
+
+  let nav = document.getElementById('nav')
+  if (window.scrollY > 400) {
+    nav.classList.toggle('active')
+  } else {
+    nav.classList.toggle('active2')
+  }
+
+
+
 }
 
 btnMobile.addEventListener('click', toggleMenu)
