@@ -18,13 +18,19 @@ a{
 }
 
 body{
+
   width: 100% ;
   height: 90%;
   /*background:linear-gradient(rgba(2, 2, 5, 0.508),rgba(49, 46, 67, 0.611)), url(/img/background.jpg);*/
   color: white;
   background-color:var(--baground);
+ 
 
 }
+html {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); /*retira a cor de higlights, que é a cor de quando vc clica u mbotao ela
+  aparece no fundo do botao*/
+ }
 /*HEADER*/
 header{
   width: 100%;

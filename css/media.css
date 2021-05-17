@@ -399,18 +399,25 @@ height: auto;
 
 
 @media(max-width:530px){
+  .hide{ /*classe para travar o scroll enquanto o menu responsivo estiver ativo*/
+    overflow: hidden;
+  }
   
 #btn-mobile{
   display: block;
 }
 #menu{
-  display: none;
+  display: block;
   position: absolute;
   width: 100%;
   right: 0px;
-  height:calc(100vh - 61.59px) ;
+  height: 0%;
   background-color: rgba(24, 23, 40, 0.8);
   z-index: 99999;
+  transition: .6s;
+  visibility: hidden;
+  overflow-y: hidden;
+  top: 100%;
 }
 
 #menu li{
@@ -420,16 +427,22 @@ height: auto;
 }
 
 #nav.active #menu{
-  display: block;  
+ 
   top: 55px;
+  background: red;
+    height:calc(100vh - 61.59px) ;
+    visibility: visible;
+    overflow-y: auto;
 }
+
 
 #nav.active2 #menu{
-  display: block;  
+    visibility: visible;
   top: 140px;
+  
+  height:calc(100vh - 61.59px) ;
+  overflow-y: auto;
 }
-
-
 
 #nav.active .nave{
   margin-left: 0px;
@@ -437,6 +450,32 @@ height: auto;
 header{
   border-bottom-color:transparent;
 }
+
+#btn-mobile{
+  display: flex;
+  padding: .5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+  gap: 1rem;
+}
+#hamburger{
+  border-top: 2px solid currentColor; /*current color atribui a este elemento o valor anterior dado pela cascata*/
+  width: 20px;
+  color: currentColor;
+display: block;
+}
+#hamburger::after, #hamburger::before{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 20px;
+margin-top: 5px;
+  background-color: currentColor;
+}
+
+
 }
 
 
