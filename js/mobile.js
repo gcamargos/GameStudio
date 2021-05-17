@@ -1,11 +1,11 @@
 
 
 let btnMobile = document.getElementById('btn-mobile')
-
+let nav = document.getElementById('nav')
 function toggleMenu() {
 
 
-  let nav = document.getElementById('nav')
+
   if (window.scrollY > 400) {
     nav.classList.toggle('active')
   } else {
@@ -17,3 +17,10 @@ function toggleMenu() {
 }
 
 btnMobile.addEventListener('click', toggleMenu)
+
+function list() {
+  nav.classList.remove('active')
+  nav.classList.remove('active2')
+}
+
+
