@@ -1,18 +1,13 @@
 .fund{
   position: relative;
   z-index: -1;
-
 }
 .filter{
   filter: brightness(40%);
-
-  
 }
-
 .owl-nav{
   display: none;
 }
-
 .owl-theme .owl-dots  {
   position: absolute;
   display: flex;
@@ -20,23 +15,14 @@
   margin: 0 auto;
   top: 50%;
   margin-left: 5px;
-
-  
 }
 .owl-theme .owl-dots button{ 
   margin: 10px;
 } 
-
-
-
-
 .owl-theme .owl-dots .owl-dot span{
    margin-top: 20px;
    background-color: transparent;
-   
-   
 }
-
 .owl-theme .owl-dots .owl-dot span::after{
   background-color: rgba(0, 255, 0, 0);
   content: 'Xx';
@@ -45,10 +31,7 @@
   border:solid 2px;
   padding: 80%;
   transition-duration: 0.5s;
- 
 }
-
-
 .owl-theme .owl-dots .owl-dot span:hover::after{
   background-color: rgba(0, 255, 0, 0);
   content: 'Xx';
@@ -63,23 +46,14 @@
   .owl-theme .owl-dots .owl-dot span:focus::after{
   color: red;
   }
-
-
-
 /*qunado a pagina esta ativa*/
-
-
-
-
 .owl-theme .owl-dots .owl-dot span{
 content: 'OLA';
 background-color: transparent;
 }
-
 /*imagem do*/
 .owl-carousel .owl-item img{
   height: 100vh;
   width: 100%;
   object-fit: cover;
-  
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,60 +12,39 @@
   <!--Primeiro carrossel usando o owl -->
   <link rel="stylesheet" href="owl/owl.carousel.min.css">
   <link rel="stylesheet" href="owl/owl.theme.default.min.css">
-
   <!--light slider para uso do segundo slide-->
   <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
   <script src="js/lightslider/lightslider.js"></script>
-
-
   <!--estilizacao dos elementos-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/slide.css">
   <link rel="stylesheet" href="css/card.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/media.css">
-
   <script src="js/header.js"></script>
   <script src="js/change.js"></script>
-
-
-
-
   <title>GameClubGC</title>
 </head>
-
 <body>
+<span id="headers"></span>
   <div class="owl-carousel owl-theme">
     <img class="fund filter " src="img/backgound.jpg" alt="">
     <img class="fund filter  " src="img/b1.jpg" alt="">
     <img class="fund filter " src="img/b2.jpg" alt="">
-
-
   </div>
-
   <div class="text1 texts">
     <h2 id="anim1" class="anim">BEM VINDO!!</h2>
   </div>
-
   <div id="bt" class="texts anim2"><button class="button">READ MORE</button></div>
-
-
-
-
-
-
-  <header class="header-wrap">
-
-    <div class="container">
+  <header class="header-wrap" >
+    <div class="container" >
       <div class="logo">
         <a href="/">
           <picture>
             <source media="(max-width:1050px)" srcset="img/logo.png">
             <source media="(min-width:951px)" srcset="">
             <img src="img/logo-NAME.png" alt="">
-
           </picture>
-
         </a>
       </div>
       <div class="nave">
@@ -75,7 +53,7 @@
             <span id="hamburger"></span>
           </button>
           <ul id="menu">
-            <li><a href="#" onclick="list()">INICIO</a> </li>
+            <li><a href="#headers" onclick="list()">INICIO</a> </li>
             <li> <a href="#char-games" onclick="list()">GAMES</a> </li>
             <li> <a href="#news" onclick="list()">NEWS</a></li>
             <li> <a href="#midia" onclick="list()">MIDIA</a> </li>
@@ -92,20 +70,16 @@
     </div>
     </div>
   </header>
-
   <!---->
   <span id="char-games" style="margin-bottom: 100px; display: block;"></span>
-
   <section class="game-section">
     <h1 class="txt">Principais games</h1>
-
     <div class="wrapper-char-games ">
       <ul id="responsive" class="cs-hidden" style="width:940px;">
         <!--id and class para o slide el light-->
         <li onclick="changeVal()">
           <a href="#card">
             <div class="img-wrapper">
-
               <img class="img-card" src="img/DesignBust_valorant_folder_icon256.jpg" alt="">
             </div>
             <div class="wrap">
@@ -116,7 +90,6 @@
                 MAR 18-20,2020
               </div>
             </div>
-
           </a>
         </li>
         <li onclick="changeLol()">
@@ -134,7 +107,6 @@
                 MAR 18-20,2020
               </div>
             </div>
-
           </a>
         </li>
         <li onclick="changePala()">
@@ -150,7 +122,6 @@
                 MAR 18-20,2020
               </div>
             </div>
-
           </a>
         </li>
         <li onclick="impact()" style="position: relative;">
@@ -166,17 +137,14 @@
                 MAR 18-20,2020
               </div>
             </div>
-
           </a>
         </li>
-
       </ul>
     </div>
     <span id="card" style="margin-bottom: 10px; display: block;"></span>
     <div class="info-games">
       <div class="text-info">
         <h1 class="nick">Valorant</h1>
-
         <p class="text">Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa
           desenvolvido e publicado pela Riot Games.Duas equipes de cinco jogam uma contra a outra, e os jogadores
           assumem o papel de "agentes" com habilidades únicas e especiais </p>
@@ -184,12 +152,9 @@
           spike", "mata-mata",
           entre varios outros. O jogo tambem conta com o modo competitivo e o modo sem classificação para jogadores
           casuais. </p>
-
         <div class="btn-stars">
           <button class="button">Read More</button>
-
           <div class="stars">
-
             <i class="fas fa-star" style="color: #f9a450;"></i>
             <i class="fas fa-star" style="color: #f9a450;"></i>
             <i class="fas fa-star" style="color: #f9a450;"></i>
@@ -197,16 +162,13 @@
             <i class="fas fa-star" style="color: #f9a450;"></i>
           </div>
         </div>
-
       </div>
       <div class="img-game">
         <div class="img">
-          <img class="change-img" src="val.jpg" alt="">
+          <img class="change-img" src="img/val.jpg" alt="imagem do game">
         </div>
-
       </div>
     </div>
-
     <span id="news" style=" margin-top: -50px; margin-bottom: 100px; display: block;"></span>
     <section class="game-news">
       <div class="txt">
@@ -226,7 +188,6 @@
                 <div class="date">
                   10 MAR 2021
                 </div>
-
               </div>
               <h2>NYANPASU LOREM NICO </h2>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur dolorum porro?
@@ -238,9 +199,7 @@
               <div><i class="fas fa-comment"></i><span>460</span></div>
             </div>
           </a>
-
         </div>
-
         <div class="card">
           <a>
             <div class="c-img">
@@ -254,7 +213,6 @@
                 <div class="date">
                   10 MAR 2021
                 </div>
-
               </div>
               <h2>X-BOX LANÇA PC DA NASA</h2>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur dolorum porro?
@@ -266,9 +224,7 @@
               <div><i class="fas fa-comment"></i><span>460</span></div>
             </div>
           </a>
-
         </div>
-
         <div class="card">
           <a>
             <div class="c-img">
@@ -282,7 +238,6 @@
                 <div class="date">
                   10 MAR 2021
                 </div>
-
               </div>
               <h2>CONSOLES ABDUZEM PLAYERS</h2>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequatur dolorum porro?
@@ -294,11 +249,8 @@
               <div><i class="fas fa-comment"></i><span>460</span></div>
             </div>
           </a>
-
         </div>
       </div>
-
-
     </section>
     <span id="midia" style="margin-bottom: 100px; display: block;"></span>
     <section class="game-video">
@@ -306,15 +258,11 @@
         VIDEO MIDIA
       </div>
       <div class="v-container">
-
         <div class="v-left">
-
-          <video class="vimeo" controls poster="val.jpg">
-            <source src="break.mp4">
+          <video class="vimeo" controls poster="img/val.jpg">
+            <source src="video/break.mp4">
           </video>
-
         </div>
-
         <div class="v-right">
           <div class="v-body">
             <h1>CRIE SEU PRÓPRIO CANAL E COMECE A TRANSMITIR JOGOS AGORA</h1>
@@ -323,17 +271,13 @@
               porchetta ground. Round beef tail tri-tip. Short loin pork strip steak venison.</p>
             <button class="button">GET STARTED NOW</button>
           </div>
-
           <div class="v-footer">
             <h1>9 136 STREAMS DOS JOGOS MAIS RECENTES</h1>
             <span>267 347 watching now</span>
           </div>
-
         </div>
-
       </div>
     </section>
-
   </section>
   <span id="boletim" style="margin-bottom: 100px; display: block;"></span>
   <div class="msg-span">
@@ -346,77 +290,56 @@
         <span>RECEBA NOTICIAS QUENTINHAS DOS NOSSOS GAMES
         </span>
       </div>
-
       <div class="container-input"> <input class="input" type="text" placeholder="Digite seu email...">
         <button class="icon"><i class="fas fa-envelope"></i></button>
       </div>
     </div>
   </div>
-
   <span id="footer" style=" display: block;"></span>
   <footer class="footer">
     <div class="f-container">
       <div class="f-c-up">
-
         <div class="up-logo">
           <a href="#"><img src="img/logo-NAME.png" alt=""></a>
         </div>
-
         <div class="up-info">
           <div class="f-header">
             <div class="nav">
               <nav class="nave">
                 <ul>
-                  <li><a href="#">INICIO</a> </li>
+                  <li><a href="#headers">INICIO</a> </li>
                   <li> <a href="#char-games">GAMES</a> </li>
                   <li> <a href="#news">NEWS</a></li>
-                  <li> <a href="#">MIDIA</a> </li>
-                  <li> <a href="#">BOLETIM</a> </li>
-                  <li> <a href="#">FOOTER</a> </li>
+                  <li> <a href="#midia">MIDIA</a> </li>
+                  <li> <a href="#boletim">BOLETIM</a> </li>
+                  <li> <a href="#footer">FOOTER</a> </li>
                 </ul>
               </nav>
             </div>
           </div>
           <div class="f-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quaerat odio repudiandae
             sequi repellendus quae voluptatum consequatur esse. </div>
-
           <div class="f-icon">
             <i class="fab fa-facebook-f"></i>
             <i class="fab fa-twitter"></i>
             <i class="fab fa-google-plus-g"></i>
             <i class="fab fa-youtube"></i>
-
           </div>
         </div>
-
       </div>
-
       <div class="f-c-down">
         <div><span>©Copyright 2021</span>
           <span>All Right Reserved</span>
         </div>
-
-
       </div>
-
     </div>
-
   </footer>
-
-  <a href="#" class="toTop"><i class="fas fa-sort-up"></i></a>
-
-
-
+  <a href="#headers" class="toTop"><i class="fas fa-sort-up"></i></a>
   <!--arquivos para o owl carousel-->
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/owl/setup.js"></script>
   <!--script para o light slider-->
   <script src="js/lightslider/script-light.js"></script>
-
   <script src="js/mobile.js"></script>
-
-
-
 </body>
-
 </html>

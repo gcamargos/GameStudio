@@ -2,7 +2,6 @@
 * https://github.com/sachinchoolur/lightslider
 * Copyright (c) 2015 Sachin N; Licensed MIT */
 /** /!!! core css Should not edit !!!/**/ 
-
 .lSSlideOuter {
     overflow: hidden;
     -webkit-touch-callout: none;
@@ -70,19 +69,16 @@
     opacity: 1;
 }
 /** /!!! End of core css Should not edit !!!/**/
-
 /* Pager */
 .lSSlideOuter .lSPager.lSpg {
     margin: 10px 0 0;
     padding: 0;
     text-align: center; display: none;
-   
 }
 .lSSlideOuter .lSPager.lSpg > li {
     cursor: pointer;
     display: inline-block;
     padding: 0 5px;
-   
 }
 .lSSlideOuter .lSPager.lSpg > li a {
     background-color: #222222;
@@ -107,7 +103,6 @@
     opacity: 1;
 }
 /* End of pager */
-
 /** Gallery */
 .lSSlideOuter .lSPager.lSGallery {
     list-style: none outside none;
@@ -149,7 +144,6 @@
     clear: both;
 }
 /* End of Gallery*/
-
 /* slider actions */
 .lSAction > a {
     width: 32px;
@@ -185,8 +179,6 @@
     filter: alpha(opacity=0);
     overflow: hidden;
 }
-
-
 /* vertical */
 .lSSlideOuter.vertical {
     position: relative;
@@ -203,7 +195,6 @@
     width: 100% !important;
     max-width: none !important;
 }
-
 /* vertical controlls */
 .lSSlideOuter.vertical .lSAction > a {
     left: 50%;
@@ -221,8 +212,6 @@
     top: 10px;
 }
 /* vertical */
-
-
 /* Rtl */
 .lSSlideOuter.lSrtl {
     direction: rtl;
@@ -241,16 +230,13 @@
     float: right !important;
 }
 /* Rtl */
-
 @-webkit-keyframes rightEnd {
     0% {
         left: 0;
     }
-
     50% {
         left: -15px;
     }
-
     100% {
         left: 0;
     }
@@ -259,11 +245,9 @@
     0% {
         left: 0;
     }
-
     50% {
         left: -15px;
     }
-
     100% {
         left: 0;
     }
@@ -272,11 +256,9 @@
     0% {
         top: 0;
     }
-
     50% {
         top: -15px;
     }
-
     100% {
         top: 0;
     }
@@ -285,11 +267,9 @@
     0% {
         top: 0;
     }
-
     50% {
         top: -15px;
     }
-
     100% {
         top: 0;
     }
@@ -298,11 +278,9 @@
     0% {
         left: 0;
     }
-
     50% {
         left: 15px;
     }
-
     100% {
         left: 0;
     }
@@ -311,11 +289,9 @@
     0% {
         left: 0;
     }
-
     50% {
         left: 15px;
     }
-
     100% {
         left: 0;
     }
@@ -324,11 +300,9 @@
     0% {
         bottom: 0;
     }
-
     50% {
         bottom: -15px;
     }
-
     100% {
         bottom: 0;
     }
@@ -337,11 +311,9 @@
     0% {
         bottom: 0;
     }
-
     50% {
         bottom: -15px;
     }
-
     100% {
         bottom: 0;
     }

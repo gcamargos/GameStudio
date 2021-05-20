@@ -12,20 +12,14 @@
 }
 a{
   text-decoration: none;
-
   transition-duration: 0.4s;
-   
 }
-
 body{
-
   width: 100% ;
   height: 90%;
   /*background:linear-gradient(rgba(2, 2, 5, 0.508),rgba(49, 46, 67, 0.611)), url(/img/background.jpg);*/
   color: white;
   background-color:var(--baground);
- 
-
 }
 html {
   -webkit-tap-highlight-color: rgba(255, 0, 0, 0); /*retira a cor de higlights, que é a cor de quando vc clica u mbotao ela
@@ -46,19 +40,12 @@ header{
   display: flex;
 justify-content: space-between;
 background-color: rgba(24, 23, 40, 0.8);
-
   padding-left: 50px;
   padding-right: 50px;
   height: 140px;
   z-index: 100;
   top: 0;
 }
-
-
-
-
-
-
 /*todo o container do header*/
 .container{
  align-items: center;
@@ -68,55 +55,38 @@ background-color: rgba(24, 23, 40, 0.8);
   height: 100%;
   width: 100%;
 }
-
 /*imagem logo*/
 .logo{ 
   display: flex;
   margin-right:100px ;
-
- 
 }
-
 .msg-span h2{
   font-family: 'Reggae One', cursive;
   font-size: 3.5rem;
   text-align: center;
 }
-
 /**/
 .lslide{
-
   display: block;
-
-  
 }
 .nave ul  {
- 
- 
   list-style: none;
   display: flex;
 }
 .nave ul li   {
   margin-right: 40px;
- 
-  
 }
 .nave ul li a  {
   color: white;
 }
 .nave ul li a:hover{
-
     color: var(--color-hover);
-  
 }
-
 /*botao de pesquisa e de join*/
 .search-join{
   display: flex;
 }
-
 .search-join .join .btn{
-  
   height: 50px;
   width: 160px;
   padding: 5px;
@@ -131,31 +101,22 @@ background-color: rgba(24, 23, 40, 0.8);
   transition-duration: 0.1s;
 }
 .search-join .join .btn:hover{
-  
   border-color: var(--color-hover);
   background-color: var(--color-hover);
 }
-
 .scrolling-active{
   background-color: #1e1d32;
   height: 10%;
   box-shadow: 0 3px 1rem rgba(5, 0, 38, 0.576);
-
 }
 .scrolling-active .nave ul li a{
   color:#ffffff;
 }
-
 .scrolling-active .logo img{
   width: 150px;
   margin-right: 0px;
-  
 }
-
-
 /*///HEADER*/
-
-
 .txt{
   font-family: 'Roboto', 'Arial';
     color: #ffffff;
@@ -167,8 +128,6 @@ background-color: rgba(24, 23, 40, 0.8);
     font-family: "Agency FB";
     margin-bottom:60px;
 }
-
-
 /*começando os conteudos abaixo do header*/
 .game-section{
   background-color: rgba(170, 170, 170, 0); 
@@ -183,54 +142,35 @@ background-color: rgba(24, 23, 40, 0.8);
   margin: 0 auto;
   background-color: rgba(255, 0, 0, 0);
   text-decoration: none;
-
 }
-
 .wrapper-char-games ul li  {
 text-decoration: none;
 color: whitesmoke;
 transition: .3s;
 cursor: pointer;
 margin-left: 60px;
-
-
 }
 .wrapper-char-games ul li a  {
-
 color: whitesmoke;
-
-
-
 }
 .owl-carousel .owl-item img {
- 
   width: 100%;
   object-fit: cover;
 }
-
-
-
 .img-wrapper{
   width: 250px;
   height: 250px;
   border-radius:10%;
   overflow: hidden;
-
   justify-content: center;
-
- 
- 
 }
 .img-card{
 object-fit: cover;
 width: 100%;
 height: 100%;
-
 filter:opacity(40%);
 transition-duration: 1.5s;
 transition: 1s;
-
-
 }
 .img-card:hover{
 object-fit: cover;
@@ -238,13 +178,7 @@ width: 100%;
 height: 100%;
 filter: opacity(100%);
 transition-duration: .3s;
-
-
 }
-
-
-
-
 .description{
   text-align: left;
   font-weight: 700;
@@ -263,14 +197,9 @@ transition-duration: .3s;
     margin-left: 80px;
 }
 .wrapper-char-games ul li a:hover{
- 
   color: var(--color-hover);
-
 }
-
-
 /*INFO DOS GAMES*/
-
 .info-games{
   display: flex;
   width: 100%;
@@ -279,14 +208,12 @@ transition-duration: .3s;
   margin-bottom: 100px;
   border-radius: 10px;
 }
-
 .info-games .text-info{
   background-color: rgba(255, 255, 255, 0);
   width: 50%;
   padding-left: 100px;
   padding-top: 60px;
   padding-bottom: 90px;
-  
 }
 .text-info p {
   margin-bottom: 40px;
@@ -298,20 +225,15 @@ transition-duration: .3s;
   text-transform: uppercase;
   font-size: 25px;
   margin-bottom: 10px;
-  
 }
 .info-games .img-game{
   background-color: rgba(21, 255, 0, 0);
   width: 50%;
-  
 }
 .btn-stars{
-  
   display: flex;
   align-items: center;
-  
   margin-bottom: 100%;
-  
 }
  .button{
 background: linear-gradient(to right, #3dd0d8 0%,
@@ -326,21 +248,15 @@ cursor: pointer;
 padding-top: 19px;
 padding-bottom: 19px;
 font-weight: 700;
-
 }
-
 .img-game{
-
  align-items: center;
  margin: auto;
-
 }
 .img-game .img{
 position: relative;
 height: 80%;
 left: 10%;
-
-
 }
 .img-game .img img{
 width: 570px;
@@ -348,18 +264,15 @@ height: 450px;
 object-fit: cover;
 border-radius: 10px ;
 }
-
 .owl-theme .owl-dots .owl-dot span{
   background: transparent;
 }
 button.owl-dot.active{
   color: var(--color-hover);
 }
-
 /*video section */
 .vimeo{
   object-fit: cover;
-
   width: 100%;
   height: 100%;
 }
@@ -376,45 +289,35 @@ button.owl-dot.active{
   height: 100%;
 }
 .v-container .v-right{
-  
   width: 50%;
  background: #181727;
   height: 100%;
-  
 }
 .v-right h1{
 color: whitesmoke;
   font-size: 24px;
   font-family: "Agency FB";
-  
 }
 .v-right p{
   line-height: 1.8rem;
   margin: 50px 0px 25px; 
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 .v-body{
-
   height: 374px;
   padding: 60px 60px 0 60px;
 }
-
 .v-footer{
  margin-top: 50px;
  border-top: 1px solid rgba(255, 255, 255, 0.1);
  padding: 60px 60px 0 60px;
 }
-
 .register{
-
   margin-top: 100px;
   width: 100%;
   height: 309px;
   background: linear-gradient(to right, #3dd0d8 0%, rgba(146, 82, 234, 0.64) 100%);
-
-
 }
 .cont{
   justify-content: center;
@@ -422,15 +325,12 @@ color: whitesmoke;
     align-items: center;
     width: 100%;
     height: 100%;
- 
 }
 .register div h1{
   font-size: 40px;
   font-family: "Agency FB";
   margin-right: 50px;
-  
 }
-
 .input{
   width: 100%;
   height: 60px;
@@ -441,7 +341,6 @@ color: whitesmoke;
   outline: none;
   text-transform: uppercase;
   color: grey;
-  
 }
 .container-input{
   position: relative;
@@ -461,13 +360,11 @@ color: whitesmoke;
 color: grey;
 transition-duration: .3s;
 }
-
 footer.footer{
   width: 100%;
   height: 511px;
   background:linear-gradient(rgba(0, 0, 0, 0.583),rgba(0, 0, 0, 0.57)), url("../img/footer.jpg");
 }
-
 .f-container{
   background: rgba(255, 255, 255, 0);
   width: 84.5%;
@@ -480,7 +377,6 @@ display: flex;
  height: 427px;
  border-bottom: 1px solid grey;
 }
-
 .up-logo{
   width: 50%;
 }
@@ -491,14 +387,12 @@ display: flex;
   text-align: end;
   align-items: flex-end;
 }
-
 .up-info div{
   margin-bottom: 30px;
 }
 .f-header .nave ul li a{
   font-weight: 700;
 }
-
 .f-body{
   color: #c2d4f8;
   font-size: 16px;
@@ -512,10 +406,8 @@ display: flex;
 .f-icon i:hover{
  color: var(--color-hover);
 }
-
 .f-c-down{
   color: #c2d4f8;
-  
 }
 .f-c-down div{
   margin-top: 35px;
@@ -529,7 +421,6 @@ display: flex;
 }
 .toTop{
   width: 60px;
-
     height: 60px;
     border-radius: 10px;
     background: linear-gradient(to right, #3dd0d8 0%, rgba(146, 82, 234, 0.64) 100%);
@@ -540,16 +431,11 @@ display: flex;
     text-align: center;
    display: none;
     z-index: 9999;
-   
-
-    
-    
 }
 .toTop i{
   color: white;
   font-size: 30px;
   margin-top: 20px;
-  
 }
 .btn-active{
   display: block;
@@ -559,12 +445,9 @@ display: flex;
 .lSAction > .lSNext {
     background-position: -32px 0;
     right: 10px;}
-
     .up-logo a img{
       width: 300px;
     }
-
-
 @keyframes botton{
   0%{
     opacity: 0%;
