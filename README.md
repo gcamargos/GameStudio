@@ -1,4 +1,7 @@
 ![logo](https://github.com/gleidsondevC/GameStudio/blob/main/img/logo-NAME.png) 
+
+https://gamestudiogc.netlify.app/
+
 # Exposição de jogos
  * Site para exposição de produtos e serviços.
  * Uso de slides automaticos e dinâmicos.
