@@ -1,7 +1,10 @@
 let btnMobile = document.getElementById('btn-mobile')
 let nav = document.getElementById('nav')
 let body = document.querySelector('body')
+let fixed = document.querySelector('.toTop')
 function toggleMenu() {
+  fixed.style.displa = 'none'
+  fixed.classList.remove('btn-active')
   if (window.scrollY > 400) {
     nav.classList.toggle('active')
   } else {
